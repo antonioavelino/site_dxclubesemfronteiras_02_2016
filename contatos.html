@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8"/>
+<title>DX Clube Sem Fronteiras</title/>
+
+</head>
+<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+
+
+<body>
+
+<div id="interface"/>
+
+<header id="cabecalho">
+
+<img src="imagens/topo_teste2.png"/>
+ <nav id="menu">
+ <h1>Menu Principal</h1>
+ <ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="programasdx.html">Programas DX</a></li>
+<li><a href="frequencias.html">Frequências</a></li>
+<li><a href="emissoras.html">Emissoras</a></li>
+<li><a href="cursos.html">Cursos</a></li>
+<li><a href="assinatura.html">Assinatura</a></li>
+<li><a href="fale-conosco.html">Contato</a></li>
+</ul>
+
+</nav>
+
+</header>
+
+<section id="corpo1"/>
+
+<article id="noticia-principal">
+<header id="cabecalho-artigo">
+
+</header>
+
+<hgroup>
+<h2>Formulário de Contato</h2>
+
+</hgroup>
+ 
+<body>
+<form name="form1" method="post" action="envio.php">
+<fieldset id="usuario"><legend>Identificação</legend>
+    <p><label for="cNome">Nome:</label>
+	<input type="text" name="tNome" id="cNome" size="35" maxlength="30" placeholder="Nome Completo"/></p>
+    <p><label for="cMail">E-mail:</label>
+	<input type="email" name="tMail" id="cMail" size="35" maxlength="40" placeholder="Seu E-mail"/></p>
+    </fieldset>
+        
+    <fieldset id="mensagem"><legend>Mensagem</legend>
+    <p><label for="cAssunto">Assunto:</label>
+	<input type="text" name="tAssunto" id="cAssunto" size="35" maxlength="30" /></p>
+    <textarea name="tMsg" id="cMsg" cols="35" rows="5" placeholder="Digite aqui sua Mensagem"></textarea>
+	</fieldset>
+
+     <p><input name="submit" type="submit" value="Enviar"> &nbsp; <input name="reset" type="reset" value="Limpar"></p>
+    
+</form>
+
+
+</article>
+
+</section>
+
+
+<footer id="rodape">
+<p><strong>DX Clube Sem Fronteiras | Caixa Postal 77, CEP - 55002-970, Caruaru, Pernambuco - Brasil </strong><br/>
+    Copyright - Todos os direitos reservados. All rights reserved. </p>
+    
+</footer>
+
+</div>
+
+</body>
+
+</html>
